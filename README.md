@@ -29,6 +29,7 @@ For examaple:<br />
 
 ## Output
 Text file with simplified grammar.<br />
+
 Similified form of the above example:<br />
 \<expression1> ::= +\<term> <br />
 \<expression1> ::= +\<term> \<expression1> <br />
