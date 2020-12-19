@@ -19,27 +19,27 @@ Text file contining the non-simplied grammar.
 All string enclosed with <> are the non-terminal symbols. Rest all character/s are the terminals.
 
 For examaple:
-<expression> ::= <expression> + <term>
-<expression> ::= <term>
-<term> ::= <term> * <factor>
-<term> ::= <factor>
-<factor> ::= ( <expression> )
-<factor> ::= id
+\<expression> ::= \<expression> + \<term>
+\<expression> ::= \<term>
+\<term> ::= \<term> * \<factor>
+\<term> ::= \<factor>
+\<factor> ::= ( \<expression> )
+\<factor> ::= id
 
 
 ## Output
 Text file with simplified grammar.
 Similified form of the above example:
-<expression1> ::= +<term> 
-<expression1> ::= +<term> <expression1> 
-<expression> ::= <term> 
-<expression> ::= <term> <expression1> 
-<factor> ::= ( <expression> ) 
-<factor> ::= id 
-<term1> ::= *<factor> 
-<term1> ::= *<factor> <term1> 
-<term> ::= <factor> 
-<term> ::= <factor> <term1> 
+\<expression1> ::= +\<term> 
+\<expression1> ::= +\<term> \<expression1> 
+\<expression> ::= \<term> 
+\<expression> ::= \<term> \<expression1> 
+\<factor> ::= ( \<expression> ) 
+\<factor> ::= id 
+\<term1> ::= *\<factor> 
+\<term1> ::= *\<factor> \<term1> 
+\<term> ::= \<factor> 
+\<term> ::= \<factor> \<term1> 
 
 ## Advantages of GNF
 
