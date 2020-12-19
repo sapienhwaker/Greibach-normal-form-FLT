@@ -44,8 +44,8 @@ Similified form of the above example:<br />
 
 ## Advantages of GNF
 
-* 1 Every derivation of a string scontains |s| rule applications.
-* 2 Greibach normal form grammars can easily be converted to pushdown automata with no -transitions.  This is useful because such PDAs are   guaranteed to halt.
+* 1. Every derivation of a string scontains |s| rule applications.
+* 2. Greibach normal form grammars can easily be converted to pushdown automata with no -transitions.  This is useful because such PDAs are   guaranteed to halt.
 
 ## Release History
 
